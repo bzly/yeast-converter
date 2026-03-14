@@ -77,8 +77,8 @@ function yeastConverter() {
 function updater(e) {
 	if (e.tagName === 'BUTTON' && e.getAttribute('class') !== 'selected') {
 		const choice = e.parentNode.getAttribute('class')
-		document.querySelector('.'+choice+' > .selected').removeAttribute('class')
-		e.setAttribute('class','selected')
+		document.querySelector('.'+choice+' > .selected').classList.remove('selected')
+		e.classList.add('selected')
 		yeastConverter()
 	} else if (e.tagName === 'INPUT') {
 		yeastConverter()
