@@ -19,7 +19,7 @@ function yeastCalc(amount, fromUnit, fromType, toUnit = "grams", toType = fromTy
 			}
 		},
 		active_dry: {
-			ratio: 1.33,
+			ratio: 1.5,
 			units: {
 				grams: 	1,
 				tsp:	3.1,
