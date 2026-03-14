@@ -4,27 +4,27 @@ function yeastCalc(amount, fromUnit, fromType, toUnit = "grams", toType = fromTy
 			ratio: 1,
 			units: {
 				grams: 	1,
-				tsp: 	3.15,
-				tbsp: 	9.45,
-				cups: 	151.2
+				tsp: 	3.1,
+				tbsp: 	9.3,
+				cups: 	149
 			}
 		},
 		fresh: {
 			ratio: 3,
 			units: {
 				grams: 	1,
-				tsp:	2.835,
-				tbsp:	8.504,
-				cups:	136.08
+				tsp:	7,
+				tbsp:	21,
+				cups:	336
 			}
 		},
 		active_dry: {
-			ratio: 1.5,
+			ratio: 1.33,
 			units: {
 				grams: 	1,
-				tsp:	2.835,
-				tbsp:	8.504,
-				cups:	136.08
+				tsp:	3.1,
+				tbsp:	9.3,
+				cups:	149
 			}
 		}
 	}
